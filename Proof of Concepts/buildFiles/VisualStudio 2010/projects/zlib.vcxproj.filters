@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{39b6c24d-952f-4ce7-9142-100219e354bc}</UniqueIdentifier>
+         <UniqueIdentifier>{bb6ca531-e2af-4dde-a0ba-a9121656c449}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\lib">
-         <UniqueIdentifier>{a00e0f88-e3bd-4fcb-a3e3-f8657286a632}</UniqueIdentifier>
+         <UniqueIdentifier>{e5c97bba-50f8-4f5e-bc68-1ee98b9e45f6}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>
@@ -15,84 +15,84 @@
     </ResourceCompile>
   </ItemGroup>
    <ItemGroup>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\adler32.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\adler32.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\compress.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\compress.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\crc32.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\crc32.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\deflate.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\deflate.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\gzclose.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzclose.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\gzlib.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzlib.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\gzread.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzread.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\gzwrite.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\gzwrite.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\infback.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\infback.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\inffast.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inffast.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\inflate.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inflate.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\inftrees.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\inftrees.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\trees.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\trees.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\uncompr.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\uncompr.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\zutil.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\zlib\zutil.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
    </ItemGroup>
    <ItemGroup>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\crc32.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\crc32.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\deflate.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\deflate.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\gzguts.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\gzguts.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\inffast.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inffast.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\inffixed.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inffixed.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\inflate.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inflate.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\inftrees.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\inftrees.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\trees.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\trees.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\zconf.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zconf.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\zlib.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zlib.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\zlib\zutil.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\zlib\zutil.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
    </ItemGroup>

@@ -1,0 +1,12 @@
+<TorsionProjectOptions>
+<Address>127.0.0.1</Address>
+<Password>password</Password>
+<Port>6060</Port>
+<LastConfig>Debug</LastConfig>
+<Breakpoints/>
+<Bookmarks/>
+<OpenFiles>
+<File ScrollX="0" ScrollY="161" Active="true">scripts\server\player.cs</File>
+<File ScrollX="0" ScrollY="324">art\datablocks\vehicles\cheetahCar.cs</File>
+</OpenFiles>
+</TorsionProjectOptions>

@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{9ede8a5a-58f7-452f-9ae4-8c3c74f8db04}</UniqueIdentifier>
+         <UniqueIdentifier>{5221c4cc-c1d1-4280-9cf0-4b78ab3cedba}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\lib">
-         <UniqueIdentifier>{1b648b36-5a2e-4ebc-a8fd-22bbf7bfd6ec}</UniqueIdentifier>
+         <UniqueIdentifier>{25bd8dbf-073a-4483-ad8f-a9793b52fc68}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>
@@ -15,129 +15,129 @@
     </ResourceCompile>
   </ItemGroup>
    <ItemGroup>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_callback_xs.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_callback_xs.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunk_descr.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_descr.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunk_io.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_io.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunk_prc.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_prc.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunk_xs.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_xs.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_cms.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_cms.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_display.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_display.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_dither.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_dither.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_error.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_error.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_filter.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_filter.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_hlapi.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_hlapi.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_jpeg.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_jpeg.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_object_prc.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_object_prc.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_pixels.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_pixels.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_prop_xs.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_prop_xs.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_read.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_read.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_trace.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_trace.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_write.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_write.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_zlib.c">
+      <ClCompile Include="..\..\..\..\..\Engine\lib\lmng\libmng_zlib.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
    </ItemGroup>
    <ItemGroup>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunks.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunks.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunk_descr.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_descr.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunk_io.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_io.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_chunk_prc.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_chunk_prc.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_cms.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_cms.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_conf.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_conf.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_data.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_data.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_display.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_display.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_dither.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_dither.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_error.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_error.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_filter.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_filter.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_jpeg.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_jpeg.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_memory.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_memory.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_objects.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_objects.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_object_prc.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_object_prc.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_pixels.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_pixels.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_read.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_read.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_trace.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_trace.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_types.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_types.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_write.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_write.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\lib\lmng\libmng_zlib.h">
+      <ClInclude Include="..\..\..\..\..\Engine\lib\lmng\libmng_zlib.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
    </ItemGroup>
