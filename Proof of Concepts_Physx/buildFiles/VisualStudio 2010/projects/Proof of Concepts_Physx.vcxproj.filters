@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{0c0ad5ca-c4ca-4e30-9154-bc5e40a54667}</UniqueIdentifier>
+         <UniqueIdentifier>{e88640e2-0bc3-4f17-bc28-e5a8bdb238cf}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\source">
-         <UniqueIdentifier>{d10debb7-d552-44d2-9626-881c7febd671}</UniqueIdentifier>
+         <UniqueIdentifier>{3d1990b9-8b34-4c52-a06d-c1b1643d2eaf}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>
@@ -15,7 +15,7 @@
     </ResourceCompile>
   </ItemGroup>
    <ItemGroup>
-      <ClCompile Include="..\..\..\..\..\Engine\source\main\main.cpp">
+      <ClCompile Include="C:\Users\Jonathan\Documents\GitHub\Torque3D\Engine\source\main\main.cpp">
          <Filter>Source Files\source</Filter>
       </ClCompile>
    </ItemGroup>

@@ -2,23 +2,23 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{c43fc299-b621-42e6-b548-ecf44a8f7669}</UniqueIdentifier>
+         <UniqueIdentifier>{3efce59c-c400-4241-85e0-7d3620b26742}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)">
-         <UniqueIdentifier>{b14ca2df-6d0b-4dca-b8b4-53e57b77d4c5}</UniqueIdentifier>
+         <UniqueIdentifier>{4e1b9c27-3f87-4cba-9503-1e1107c4ac26}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK">
-         <UniqueIdentifier>{59dad606-da23-4ff2-988e-e5d02267e76f}</UniqueIdentifier>
+         <UniqueIdentifier>{c63608c4-3a28-4ab6-b24f-3471faa14c42}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs">
-         <UniqueIdentifier>{5ceb44ae-4fb1-4dbb-a20a-5fa4c7a0e745}</UniqueIdentifier>
+         <UniqueIdentifier>{aab02192-a791-4994-a57d-054bd5ee35bd}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\include">
-         <UniqueIdentifier>{4638d9b4-9a57-459a-8989-eec39fe243fe}</UniqueIdentifier>
+         <UniqueIdentifier>{cfa0e062-ae33-4d05-ae38-7bc8ab48a1b4}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK\SDKs\src">
-         <UniqueIdentifier>{6fcf2f65-e748-4305-bc5b-0a88a52c9a97}</UniqueIdentifier>
+         <UniqueIdentifier>{adeac89c-36b4-43f1-8319-55aaa0bcb80f}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>

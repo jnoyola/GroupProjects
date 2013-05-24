@@ -2,17 +2,17 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{e21e08e4-d670-4b37-9e42-a10893a20a9e}</UniqueIdentifier>
+         <UniqueIdentifier>{d35bb6bb-7522-45cc-98cc-f945c706b9fa}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)">
-         <UniqueIdentifier>{7eeb38b3-374f-4146-bfc9-d20845e70eb6}</UniqueIdentifier>
+         <UniqueIdentifier>{7c932b92-e0b2-4e34-9b0f-dfa2656941b1}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK">
-         <UniqueIdentifier>{02819a84-7590-43be-9cec-ec1d00538fad}</UniqueIdentifier>
+         <UniqueIdentifier>{521c96fd-84d2-4663-a348-8b0afdd31094}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\Program Files (x86)\NVIDIA PhysX SDK\Tools">
-         <UniqueIdentifier>{d98a18ea-82c0-4c17-864f-37275c15a191}</UniqueIdentifier>
+         <UniqueIdentifier>{7c4913e9-4164-47c7-8793-ddf726d77b87}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>

@@ -154,6 +154,7 @@ function PlayerData::doDismount(%this, %obj, %forced)
 
 function PlayerData::onCollision(%this, %obj, %col)
 {
+   echo("===============collision");
    if (!isObject(%col) || %obj.getState() $= "Dead")
       return;
 
@@ -168,6 +169,8 @@ function PlayerData::onCollision(%this, %obj, %col)
    if (%col.getType() & $TypeMasks::GameBaseObjectType)
    {
       %db = %col.getDataBlock();
+      echo("======================");
+      echo((%db.getClassName() $= "WheeledVehicleData") SPC %obj.mountVehicle SPC %obj.getState() $= "Move" SPC %col.mountable);
       if ((%db.getClassName() $= "WheeledVehicleData" ) && %obj.mountVehicle && %obj.getState() $= "Move" && %col.mountable)
       {
          // Only mount drivers for now.
