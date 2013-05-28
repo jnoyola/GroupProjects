@@ -352,6 +352,8 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    ammo = LurkerAmmo;
    clip = LurkerClip;
    
+   recoil = -200;
+   
    projectile = BulletProjectile;
    projectileType = Projectile;
    projectileSpread = "0.005";

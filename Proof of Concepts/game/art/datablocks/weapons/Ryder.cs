@@ -170,6 +170,8 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    item = Ryder;
    ammo = RyderAmmo;
    clip = RyderClip;
+   
+   recoil = -100;
 
    projectile = BulletProjectile;
    projectileType = Projectile;

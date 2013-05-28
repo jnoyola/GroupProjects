@@ -169,6 +169,8 @@ datablock ShapeBaseImageData(TurretImage)
 
    // Projectile and Ammo
    ammo = BulletAmmo;
+   
+   recoil = -3000;
 
    projectile = TurretProjectile;
    projectileType = Projectile;

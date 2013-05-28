@@ -551,7 +551,7 @@ datablock PlayerData(DefaultPlayerData)
    jumpEnergyDrain = 0;
    minJumpEnergy = 0;
    jumpDelay = "15";
-   airControl = 0.3;
+   airControl = 0.0;
 
    fallingSpeedThreshold = -6.0;
 

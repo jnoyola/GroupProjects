@@ -195,6 +195,24 @@ function WeaponImage::onFire(%this, %obj, %slot)
    // Get the player's velocity, we'll then add it to that of the projectile
    %objectVelocity = %obj.getVelocity();
    
+   // Apply different magnitudes of recoil
+   %vec = %obj.getMuzzleVector(%slot);
+   %recoil = %this.recoil;
+   if (%obj.getClassName() $= "Player")
+   {
+      if (%obj.isFloating()) {}
+      else {
+         switch$ (%obj.getPose()) {
+            case "Sprint": %recoil *= 0.8;
+            case "Stand": %recoil *= 0.8;
+            case "Crouch": %recoil *= 0.4;
+            case "Prone": %recoil *= 0.15;
+            case "Swim": %recoil *= 2;
+         }
+      }
+   }
+   %obj.applyImpulse(%obj.getMuzzlePoint(%slot), VectorScale(%vec, %recoil));
+   
    %numProjectiles = %this.projectileNum;
    if (%numProjectiles == 0)
       %numProjectiles = 1;
@@ -205,7 +223,8 @@ function WeaponImage::onFire(%this, %obj, %slot)
       {
          // We'll need to "skew" this projectile a little bit.  We start by
          // getting the straight ahead aiming point of the gun
-         %vec = %obj.getMuzzleVector(%slot);
+         //%vec = %obj.getMuzzleVector(%slot);
+         // moved above
 
          // Then we'll create a spread matrix by randomly generating x, y, and z
          // points in a circle

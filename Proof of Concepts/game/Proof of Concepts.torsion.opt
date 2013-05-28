@@ -5,5 +5,11 @@
 <LastConfig>Debug</LastConfig>
 <Breakpoints/>
 <Bookmarks/>
-<OpenFiles/>
+<OpenFiles>
+<File ScrollX="0" ScrollY="538">art\datablocks\player.cs</File>
+<File ScrollX="0" ScrollY="345">art\datablocks\weapons\Lurker.cs</File>
+<File ScrollX="0" ScrollY="162">art\datablocks\weapons\Ryder.cs</File>
+<File ScrollX="0" ScrollY="192">scripts\server\weapon.cs</File>
+<File ScrollX="0" ScrollY="150" Active="true">art\datablocks\vehicles\cheetahCar.cs</File>
+</OpenFiles>
 </TorsionProjectOptions>
