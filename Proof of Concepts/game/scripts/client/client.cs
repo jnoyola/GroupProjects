@@ -76,6 +76,15 @@ function clientCmdPlayTeleportEffect(%position, %effectDataBlock)
       };
    }
 }
+//---------------------------------------------------
+// Camera recoil effect
+//---------------------------------------------------
+
+function clientCmdDoRecoil(%pitchChange, %yawChange)
+{
+	$mvPitch += %pitchChange;
+	$mvYaw += %yawChange;
+}
 
 // ----------------------------------------------------------------------------
 // WeaponHUD

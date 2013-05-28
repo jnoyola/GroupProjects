@@ -197,21 +197,25 @@ function WeaponImage::onFire(%this, %obj, %slot)
    
    // Apply different magnitudes of recoil
    %vec = %obj.getMuzzleVector(%slot);
-   %recoil = %this.recoil;
+   %poseFactor = 1;
+   
    if (%obj.getClassName() $= "Player")
    {
       if (%obj.isFloating()) {}
       else {
          switch$ (%obj.getPose()) {
-            case "Sprint": %recoil *= 0.8;
-            case "Stand": %recoil *= 0.8;
-            case "Crouch": %recoil *= 0.4;
-            case "Prone": %recoil *= 0.15;
-            case "Swim": %recoil *= 2;
-         }
+            case "Sprint": %poseFactor = 0.8;
+            case "Stand": %poseFactor = 0.8;
+            case "Crouch": %poseFactor = 0.4;
+            case "Prone": %poseFactor = 0.15;
+            case "Swim": %poseFactor = 2;
+		 }
       }
+	  %pitchChange = getrandom(%this.pitchMin, %this.pitchMax)/5000 * %poseFactor;
+	  %yawChange = getrandom(%this.yawMin, %this.yawMax)/5000 * %poseFactor;
+	  CommandToClient(%obj.client, 'DoRecoil', %pitchChange, %yawChange);
    }
-   %obj.applyImpulse(%obj.getMuzzlePoint(%slot), VectorScale(%vec, %recoil));
+   %obj.applyImpulse(%obj.getMuzzlePoint(%slot), VectorScale(%vec, %this.recoil * %poseFactor));
    
    %numProjectiles = %this.projectileNum;
    if (%numProjectiles == 0)

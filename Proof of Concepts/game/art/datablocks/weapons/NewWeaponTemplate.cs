@@ -225,6 +225,12 @@ datablock ShapeBaseImageData(WeaponTemplateImage)
    item                             = WeaponTemplateItem;
    ammo                             = WeaponTemplateAmmo;
 
+   //recoil						    = recoilVal;
+   //pitchMax						= pitchMax;
+   //pitchMin						= pitchMin;
+   //yawMax							= yawMax;
+   //yawMin							= yawMin;
+		
    //projectile                     = BulletProjectile;
    //projectileType                 = Projectile;
    //projectileSpread               = "0.005";

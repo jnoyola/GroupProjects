@@ -353,7 +353,11 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    clip = LurkerClip;
    
    recoil = -200;
-   
+   pitchMin = -200;
+   pitchMax = 0;
+   yawMin = 0;
+   yawMax = 200;
+
    projectile = BulletProjectile;
    projectileType = Projectile;
    projectileSpread = "0.005";

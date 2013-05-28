@@ -173,6 +173,11 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    
    recoil = -100;
 
+   pitchMin = -100;
+   pitchMax = 0;
+   yawMin = -100;
+   yawMax = 100;
+
    projectile = BulletProjectile;
    projectileType = Projectile;
    projectileSpread = "0.0";
