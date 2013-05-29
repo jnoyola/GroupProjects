@@ -204,16 +204,16 @@ function WeaponImage::onFire(%this, %obj, %slot)
       if (%obj.isFloating()) {}
       else {
          switch$ (%obj.getPose()) {
-            case "Sprint": %poseFactor = 0.8;
+            case "Sprint": %poseFactor = 0.8 * g;
             case "Stand": %poseFactor = 0.8;
             case "Crouch": %poseFactor = 0.4;
             case "Prone": %poseFactor = 0.15;
             case "Swim": %poseFactor = 2;
-		 }
+         }
       }
-	  %pitchChange = getrandom(%this.pitchMin, %this.pitchMax)/5000 * %poseFactor;
-	  %yawChange = getrandom(%this.yawMin, %this.yawMax)/5000 * %poseFactor;
-	  CommandToClient(%obj.client, 'DoRecoil', %pitchChange, %yawChange);
+      %pitchChange = getrandom(%this.pitchMin, %this.pitchMax)/5000 * %poseFactor;
+      %yawChange = getrandom(%this.yawMin, %this.yawMax)/5000 * %poseFactor;
+      CommandToClient(%obj.client, 'DoRecoil', %pitchChange, %yawChange);
    }
    %obj.applyImpulse(%obj.getMuzzlePoint(%slot), VectorScale(%vec, %this.recoil * %poseFactor));
    
