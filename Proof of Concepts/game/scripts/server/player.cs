@@ -171,7 +171,7 @@ function PlayerData::onCollision(%this, %obj, %col)
       if ((%db.getClassName() $= "WheeledVehicleData" ) && %obj.mountVehicle && %obj.getState() $= "Move" && %col.mountable)
       {
          // Only mount drivers for now.
-         ServerConnection.setFirstPerson(0);
+         //ServerConnection.setFirstPerson(0);
          
          // For this specific example, only one person can fit
          // into a vehicle

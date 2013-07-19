@@ -2,7 +2,7 @@
 <Address>127.0.0.1</Address>
 <Password>password</Password>
 <Port>6060</Port>
-<LastConfig>Debug</LastConfig>
+<LastConfig>Release</LastConfig>
 <Breakpoints/>
 <Bookmarks/>
 <OpenFiles>
@@ -10,6 +10,15 @@
 <File ScrollX="0" ScrollY="345">art\datablocks\weapons\Lurker.cs</File>
 <File ScrollX="0" ScrollY="162">art\datablocks\weapons\Ryder.cs</File>
 <File ScrollX="0" ScrollY="192">scripts\server\weapon.cs</File>
-<File ScrollX="0" ScrollY="150" Active="true">art\datablocks\vehicles\cheetahCar.cs</File>
+<File ScrollX="0" ScrollY="150">art\datablocks\vehicles\cheetahCar.cs</File>
+<File ScrollX="0" ScrollY="54">core\main.cs</File>
+<File ScrollX="0" ScrollY="0">core\connection.cs</File>
+<File ScrollX="0" ScrollY="3">scripts\client\serverListing.cs</File>
+<File ScrollX="0" ScrollY="81">scripts\client\init.cs</File>
+<File ScrollX="0" ScrollY="23">scripts\server\serverRegister.cs</File>
+<File ScrollX="0" ScrollY="33">scripts\server\scriptExec.cs</File>
+<File ScrollX="0" ScrollY="608">art\gui\joinServerDlg.gui</File>
+<File ScrollX="0" ScrollY="3">core\scripts\server\defaults.cs</File>
+<File ScrollX="0" ScrollY="0" Active="true">scripts\client\prefs.cs</File>
 </OpenFiles>
 </TorsionProjectOptions>

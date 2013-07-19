@@ -75,8 +75,8 @@ function VehicleData::isMountable(%this, %obj, %val)
 
 function VehicleData::mountPlayer(%this, %vehicle, %player)
 {
-   //echo("\c4VehicleData::mountPlayer("@ %this.getName() @", "@ %vehicle @", "@ %player.client.nameBase @")");
-
+   echo("\c4VehicleData::mountPlayer("@ %this.getName() @", "@ %vehicle @", "@ %player.client.nameBase @")");
+echo(%vehicle.getDamageState());
    if (isObject(%vehicle) && %vehicle.getDamageState() !$= "Destroyed")
    {
       %player.startFade(1000, 0, true);
@@ -87,8 +87,8 @@ function VehicleData::mountPlayer(%this, %vehicle, %player)
 
 function VehicleData::setMountVehicle(%this, %vehicle, %player)
 {
-   //echo("\c4VehicleData::setMountVehicle("@ %this.getName() @", "@ %vehicle @", "@ %player.client.nameBase @")");
-
+   echo("\c4VehicleData::setMountVehicle("@ %this.getName() @", "@ %vehicle @", "@ %player.client.nameBase @")");
+echo(%vehicle.getDamageState());
    if (isObject(%vehicle) && %vehicle.getDamageState() !$= "Destroyed")
    {
       %node = %this.findEmptySeat(%vehicle, %player);
@@ -127,4 +127,33 @@ function VehicleData::switchSeats(%this, %vehicle, %player)
          return %i;
    }
    return -1;
+}
+
+function VehicleData::onDestroyed(%this, %obj, %lastState)
+{
+   // Unmount players
+   %player = %obj.getMountedObject(0);
+   %player.unmount();
+   %player.setControlObject(%player);
+
+   %ejectpos = %player.getPosition();
+   %ejectpos = VectorAdd(%ejectpos, "0 0 5");
+   %player.setTransform(%ejectpos);
+
+   %ejectvel = %player.mVehicle.getVelocity();
+   %ejectvel = VectorAdd(%ejectvel, "0 0 10");
+   %ejectvel = VectorScale(%ejectvel, %player.getDataBlock().mass);
+   %player.applyImpulse(%ejectpos, %ejectvel);
+   
+   %player.kill("Vehicle");
+   
+   // Fade out the destroyed object.
+   %obj.hidden = true;
+   %obj.schedule(1000, "delete");
+   new Explosion()
+   {
+      position = %obj.position;
+      dataBlock = GrenadeExplosion;
+      scale = "2 2 2";
+   };
 }

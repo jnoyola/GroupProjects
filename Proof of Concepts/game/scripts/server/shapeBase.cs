@@ -103,6 +103,15 @@ function ShapeBase::clearDamageDt(%this)
 
 function ShapeBaseData::damage(%this, %obj, %position, %source, %amount, %damageType)
 {
-   // Ignore damage by default. This empty method is here to
-   // avoid console warnings.
+   // Apply damage by default. This method should be overloaded for advanced damage (e.g. headshots)
+   %obj.applyDamage(%amount);
+   if (%obj.getDamagePercent() >= 1.0)
+      %obj.setDamageState("Destroyed");
+}
+
+function ShapeBaseData::onDestroyed(%this, %obj, %lastState)
+{
+   // Overload this for vehicles to dismount/kill mounted players
+   %obj.startFade(1000, 0, true);
+   %obj.schedule(1000, "delete");
 }

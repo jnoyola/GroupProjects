@@ -496,7 +496,7 @@ function JoinServerDlg::onWake()
 //----------------------------------------
 function JoinServerDlg::query(%this)
 {
-   queryMasterServer(
+   /*queryMasterServer(
       0,          // Query flags
       $Client::GameTypeQuery,       // gameTypes
       $Client::MissionTypeQuery,    // missionType
@@ -507,7 +507,8 @@ function JoinServerDlg::query(%this)
       0,          // maxPing
       100,        // minCPU
       0           // filterFlags
-   );
+   );*/
+   QueryPGDMasterServer();
 }
 
 //----------------------------------------

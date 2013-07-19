@@ -365,6 +365,9 @@ datablock WheeledVehicleData(CheetahCar)
    brakeTorque = "10000";        // When brakes are applied
    maxWheelSpeed = 50;        // Engine scale by current speed / max speed
 
+   // Damage
+   maxDamage = 100;
+
    // Energy
    maxEnergy = 100;
    jetForce = 3000;

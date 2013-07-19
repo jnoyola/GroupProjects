@@ -235,6 +235,7 @@ datablock ProjectileData( BulletProjectile )
 
 function BulletProjectile::onCollision(%this,%obj,%col,%fade,%pos,%normal)
 {
+   //echo("ProjectileData::onCollision("@%this.getName()@", "@%obj@", "@%col.getClassName()@", "@%fade@", "@%pos@", "@%normal@")");
    // Apply impact force from the projectile.
    
    // Apply damage to the object all shape base objects
